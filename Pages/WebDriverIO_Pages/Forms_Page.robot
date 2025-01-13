@@ -1,0 +1,12 @@
+*** Variables ***
+${FORMS_BUTTON}              //android.widget.TextView[@text="Forms"]
+${INPUT_FIELD}              //android.widget.EditText[@content-desc="text-input"]
+${TEXT_FIELD}               //android.widget.TextView[@content-desc="input-text-result"]
+${SWITCH}                   //android.widget.Switch[@content-desc="switch"]
+${DROPDOWN_MENU}            //android.widget.EditText[@resource-id="text_input"]
+${DROPDOWN_MENU_FIRST}       //android.widget.CheckedTextView[@resource-id="android:id/text1" and @text="webdriver.io is awesome"]
+${DROPDOWN_MENU_SECOND}      //android.widget.CheckedTextView[@resource-id="android:id/text1" and @text="Appium is awesome"]
+${BUTTON}                    //android.widget.TextView[@text="Active"]
+${BUTTON_OK}                //android.widget.Button[@resource-id="android:id/button1"]
+${BUTTON_CANCEL}            //android.widget.Button[@resource-id="android:id/button2"]
+${BUTTON_ASKMELATER}        //android.widget.Button[@resource-id="android:id/button3"]
